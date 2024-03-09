@@ -8,6 +8,8 @@ import {
     git,
     github,
     html,
+    flutter,
+    vue,
     javascript,
     linkedin,
     mongodb,
@@ -36,6 +38,11 @@ export const skills = [
         imageUrl: express,
         name: "Express",
         type: "Backend",
+    },
+    {
+        imageUrl: flutter,
+        name: "Flutter",
+        type: "Mobile",
     },
     {
         imageUrl: git,
@@ -83,6 +90,11 @@ export const skills = [
         type: "Backend",
     },
     {
+        imageUrl: vue,
+        name: "Vue.js",
+        type: "Frontend",
+    },
+    {
         imageUrl: react,
         name: "React",
         type: "Frontend",
@@ -112,20 +124,20 @@ export const skills = [
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
+        company_name: "Ethiopian Arteficial Intellegence Institute",
         icon: starbucks,
         iconBg: "#accbe1",
         date: "March 2020 - April 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "I had internship for 3 months.",
+            "Building respponsive cardiography website design which integraate with AI model",
+            "Develop UI design for this website.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Flutter Developer",
+        company_name: "Personal",
         icon: tesla,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
@@ -137,8 +149,8 @@ export const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
+        title: "Vue.js Developer",
+        company_name: "Gundan Tech",
         icon: shopify,
         iconBg: "#b7e4c7",
         date: "Jan 2022 - Jan 2023",

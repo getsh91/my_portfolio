@@ -10,6 +10,8 @@ import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
+import flutter from './flutter.svg'
+import vue from './vue.svg'
 import redux from './redux.svg'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
@@ -37,6 +39,8 @@ export {
     mongodb,
     motion,
     mui,
+    flutter,
+    vue,
     nextjs,
     nodejs,
     react,
