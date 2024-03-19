@@ -15,11 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+      Over the years, I've worked on a lot of projects, but these are the ones that are most meaningful to me. Since many of them are open-source, you are welcome to examine the codebase and add your suggestions for improvements if you find something that interests you. We really appreciate your cooperation!
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -62,8 +58,8 @@ const Projects = () => {
       </div>
 
       <hr className='border-slate-200' />
-
-      <CTA />
+{/* 
+      <CTA /> */}
     </section>
   );
 };

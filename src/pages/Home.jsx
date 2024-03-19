@@ -16,8 +16,7 @@ const Home = () => {
         <span className='blue-gradient_text font-bold text-[6rem] max-sm:text-5xl drop-shadow'>
             {" "}
             Esrael Eshetu
-          </span>{" "}
-          👋
+          </span>
         </h1>
         <div className='mt-5 flex flex-col gap-3 text-2xl max-sm:text-xl text-white'>
           <p>

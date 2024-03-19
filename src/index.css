@@ -169,7 +169,7 @@ body:has(.card[data-color="green"]:hover) {
   transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
 }
 .home_back{
-  background-image: url("./assets/images/header.jpg");
+  background-image: url("./assets/images/bg2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
