@@ -69,11 +69,11 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
     {
         imageUrl: mui,
         name: "Material-UI",
@@ -127,7 +127,7 @@ export const experiences = [
         company_name: "Ethiopian Arteficial Intellegence Institute",
         // icon: starbucks,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "July 2023 - Nov 2023",
         points: [
             "I had internship for 3 months.",
             "Building respponsive cardiography website design which integraate with AI model",
@@ -140,7 +140,7 @@ export const experiences = [
         company_name: "Personal",
         // icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jan 2024 - Mar 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,9 +151,9 @@ export const experiences = [
     {
         title: "Vue.js Developer",
         company_name: "Gundan Tech",
-        icon: shopify,
+        // icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Sep 2023 - Jan 2023",
         points: [
             "Developing and maintaining admin dashboard web application using Vue.js and other related technologies.",
             "Collaborating with cross-functional teams including UI designer and other developers to create high-quality products.",
@@ -177,11 +177,11 @@ export const experiences = [
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
+    // {
+    //     name: 'Contact',
+    //     iconUrl: contact,
+    //     link: '/contact',
+    // },
     {
         name: 'GitHub',
         iconUrl: github,
@@ -197,7 +197,7 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
-        theme: 'btn-back-blue',
+        theme: 'btn-back-green',
         name: 'E-commerce App',
         description: 'Developed a mobile app that used for helping users find the best deals in local markets.',
         link: 'https://github.com/getsh91/my_eccomerce',
