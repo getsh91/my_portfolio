@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { CTA } from "../components";
 import { projects } from "../constants";
-import { arrow } from "../assets/icons";
 
 const Projects = () => {
   return (
