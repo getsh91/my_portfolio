@@ -1,12 +1,13 @@
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
+import { FaArrowCircleRight } from "react-icons/fa";
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
 
 const Projects = () => {
   return (
-    <section className='max-container'>
+    <section className='max-container2'>
       <h1 className='head-text'>
         My{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
@@ -42,15 +43,11 @@ const Projects = () => {
                   to={project.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='font-semibold text-blue-600'
+                  className='font-semibold text-green-600 hover:text-emerald-200'
                 >
                   Live Link
                 </Link>
-                <img
-                  src={arrow}
-                  alt='arrow'
-                  className='w-4 h-4 object-contain'
-                />
+                <FaArrowCircleRight className='text-green-600' />
               </div>
             </div>
           </div>
@@ -58,8 +55,8 @@ const Projects = () => {
       </div>
 
       <hr className='border-slate-200' />
-{/* 
-      <CTA /> */}
+
+      <CTA />
     </section>
   );
 };
