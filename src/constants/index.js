@@ -3,7 +3,6 @@ import {
     car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -16,16 +15,15 @@ import {
     motion,
     mui,
     nextjs,
+    nuxt,
     nodejs,
     pricewise,
     react,
     redux,
     sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    laravel
 } from "../assets/icons";
 
 export const skills = [
@@ -69,11 +67,16 @@ export const skills = [
         name: "MongoDB",
         type: "Database",
     },
-    // {
-    //     imageUrl: motion,
-    //     name: "Motion",
-    //     type: "Animation",
-    // },
+    {
+        imageUrl: laravel,
+        name: "Laravel",
+        type: "Backend",
+    },
+    {
+        imageUrl:nuxt,
+        name: "Nuxt.js",
+        type: "Frontend",
+    },
     {
         imageUrl: mui,
         name: "Material-UI",
@@ -84,11 +87,11 @@ export const skills = [
         name: "Next.js",
         type: "Frontend",
     },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
+    // {
+    //     imageUrl: nodejs,
+    //     name: "Node.js",
+    //     type: "Backend",
+    // },
     {
         imageUrl: vue,
         name: "Vue.js",
@@ -124,8 +127,7 @@ export const skills = [
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Ethiopian Arteficial Intellegence Institute",
-        // icon: starbucks,
+        company_name: "Ethiopian Arteficial Intellegence Institute", 
         iconBg: "#accbe1",
         date: "July 2023 - Nov 2023",
         points: [
@@ -138,42 +140,25 @@ export const experiences = [
     {
         title: "Flutter Developer",
         company_name: "Personal",
-        // icon: tesla,
         iconBg: "#fbc3bc",
         date: "Jan 2024 - Mar 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining mobile applications using Flutter and other related technologies.",
+            "Collaborating with cross-functional teams including UI designers and other developers to create high-quality products.",
         ],
     },
     {
-        title: "Vue.js Developer",
+        title: "Vue.js and React Developer",
         company_name: "Gundan Tech",
-        // icon: shopify,
         iconBg: "#b7e4c7",
         date: "Sep 2023 - Jan 2023",
         points: [
-            "Developing and maintaining admin dashboard web application using Vue.js and other related technologies.",
+            "Developing and maintaining Admin dashboard web applications using Vue.js and React and other related technologies.",
             "Collaborating with cross-functional teams including UI designer and other developers to create high-quality products.",
             "Implementing responsive web app which compatable cross-browser.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
-    },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+    }
 ];
 
 export const socialLinks = [

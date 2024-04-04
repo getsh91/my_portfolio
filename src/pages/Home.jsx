@@ -24,12 +24,7 @@ const Home = () => {
             Software Engineer with 3+ years of experience in building web and mobile apps.
           </p>
         </div>
-      
-      
           </div>
-          {/* <div className='lg:w-1/2 w-full  md:h-[400px] h-[200px]'>
-          <img src={tesla} alt="tesla" className="w-full h-full object-cover" />
-          </div> */}
       </section>
       <About/>
       <Projects/>

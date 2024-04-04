@@ -26,8 +26,8 @@ import summiz from './summiz.svg'
 import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
-import soundon from './soundon.png'
-import soundoff from './soundoff.png'
+import laravel from './laravel.svg'
+import nuxt from './nuxt.svg'
 
 export {
     css,
@@ -58,6 +58,6 @@ export {
     threads,
     arrow,
     contact,
-    soundon,
-    soundoff
+    laravel,
+    nuxt
 }
