@@ -39,7 +39,7 @@ body:has(.card[data-color="green"]:hover) {
     @apply sm:text-5xl text-3xl font-semibold sm:leading-snug font-poppins;
   }
   .head-text2 {
-    @apply sm:text-3xl text-xl font-normal sm:leading-snug font-poppins text-white;
+    @apply sm:text-3xl text-xl font-normal sm:leading-snug font-poppins;
   }
 
 
@@ -176,14 +176,6 @@ body:has(.card[data-color="green"]:hover) {
 
 .block-container:hover > .btn-front {
   transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
-}
-.home_back{
-  background-image: url("./assets/images/bg2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0.2));
-  mask-image: linear-gradient(#000,rgba(0,0,0,0.6))
 }
 
 /* Neo Brutalism */

@@ -14,12 +14,12 @@ const Home = () => {
           Hello 👋,{" "}
         </h2>
         <h1>
-        <span className=' font-bold text-[6rem] max-sm:text-5xl drop-shadow text-white'>
+        <span className=' font-bold text-[6rem] max-sm:text-5xl drop-shadow '>
             {" "}
             I'm <span className="text-[#47b84a]">Esrael Eshetu</span>
           </span>
         </h1>
-        <div className='mt-5 flex flex-col gap-3 text-2xl max-sm:text-xl text-white'>
+        <div className='mt-5 flex flex-col gap-3 text-2xl max-sm:text-xl '>
           <p>
             Software Engineer with 3+ years of experience in building web and mobile apps.
           </p>
