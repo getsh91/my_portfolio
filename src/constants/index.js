@@ -147,7 +147,7 @@ export const experiences = [
     date: "July 2023 - Nov 2023",
     points: [
       "I had internship for 3 months.",
-      "Building respponsive cardiography website design which integraate with AI model",
+      "Building responsive cardiography website design which integraate with AI model",
       "Develop UI design for this website and Collaborating with other designers and developers.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -159,9 +159,9 @@ export const experiences = [
     icon: yeha,
     date: "Jan 2023 - present",
     points: [
-      "Developing and maintaining web applications using React,Vue and other related technologies.",
+      "Developing landing pages and web-apps for different purpose using React.",
       "Collaborating with cross-functional teams including UI designers and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to other developers in my team.",
     ],
   },
   {
