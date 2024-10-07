@@ -25,7 +25,9 @@ import {
   typescript,
   laravel,
   threads,
+  chartered,
 } from "../assets/icons";
+import { Point } from "@react-three/drei";
 
 export const skills = [
   {
@@ -126,6 +128,30 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    title: "Digital Assistant",
+    company_name: "Chartered Advisory Service",
+    iconBg: "#b7e4c7",
+    icon: chartered,
+    date: "Aug 2023 - present",
+    points: [
+      "Give advice to clients on how to use digital tools to improve their business.",
+      "Develop and maintain the company's website.",
+      ,
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Cheetah Delivery Service",
+    iconBg: "#fbc3bc",
+    icon: nextjs,
+    date: "Aug 2023 - present",
+    points: [
+      "Developing and maintaining web applications using Next.js and other related technologies.",
+      "Working on the front-end and back-end of the application.",
+      "Collaborating with cross-functional teams including UI designers and other developers to create high-quality products.",
+    ],
+  },
   {
     title: "Vue.js Developer",
     company_name: "Gundan Tech",
