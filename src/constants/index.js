@@ -129,7 +129,7 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Digital Assistant",
+    title: "Digital Assistant and Software developer ",
     company_name: "Chartered Advisory Service",
     iconBg: "#b7e4c7",
     icon: chartered,
@@ -137,6 +137,7 @@ export const experiences = [
     points: [
       "Give advice to clients on how to use digital tools to improve their business.",
       "Develop and maintain the company's website.",
+      "collaborate as frontend developer,data analyst and project manager on banking system and walet service",
       ,
     ],
   },
@@ -150,6 +151,7 @@ export const experiences = [
       "Developing and maintaining web applications using Next.js and other related technologies.",
       "Working on the front-end and back-end of the application.",
       "Collaborating with cross-functional teams including UI designers and other developers to create high-quality products.",
+      "I contribute on developing event-app and e-ccomerce app development using Next.js and as project manager.",
     ],
   },
   {
