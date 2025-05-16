@@ -187,9 +187,9 @@ export const experiences = [
     icon: yeha,
     date: "Jan 2023 - present",
     points: [
-      "Developing landing pages and web-apps for different purpose using React.",
-      "Collaborating with cross-functional teams including UI designers and other developers to create high-quality products.",
-      "Participating in code reviews and providing constructive feedback to other developers in my team.",
+      "Developed landing pages and web-apps for different purpose using React.",
+      "Collaborated with cross-functional teams including UI designers and other developers to create high-quality products.",
+      "Participated in code reviews and providing constructive feedback to other developers in my team.",
     ],
   },
   {
